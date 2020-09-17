@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-sensorsdata",
+  "version": "1.0.0",
+  "description": "基于[airbnb](https://github.com/airbnb/javascript)配置的个性化 ESLint 规则",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiandandkl/eslint-sensorsdata.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiandandkl/eslint-sensorsdata/issues"
+  },
+  "homepage": "https://github.com/jiandandkl/eslint-sensorsdata#readme",
+  "author": "",
+  "dependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}

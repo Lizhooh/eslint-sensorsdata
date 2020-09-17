@@ -1,0 +1,9 @@
+rules:
+  import/extensions:
+    - 2
+    - never
+    - jsx: always
+      packages: always
+  import/named: 0
+  import/no-extraneous-dependencies: 0
+  import/no-dynamic-require: 0
