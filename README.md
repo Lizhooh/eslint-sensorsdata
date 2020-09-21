@@ -7,17 +7,23 @@
 
 在项目中添加`.eslintrc.js`文件，添加`extends`：
 ```yaml
-extends: sensorsdata
+module.exports = {
+  extends: ['@sc/eslin-config-sensorsdata']
+};
 ```
 
 react项目:
 ```yaml
-extends: sensorsdata-react
+module.exports = {
+  extends: ['@sc/eslin-config-sensorsdata-react']
+}
 ```
 
 ts:
 ```yaml
-extends: sensorsdata-typescript
+module.exports = {
+  extends: ['@sc/eslin-config-sensorsdata-typescript']
+};
 ```
 
 #### 常见问题

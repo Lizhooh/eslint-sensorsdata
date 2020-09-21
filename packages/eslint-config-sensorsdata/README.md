@@ -6,5 +6,7 @@
 
 在项目中添加`.eslintrc.js`文件，添加`extends`：  
 ```yaml
-extends: sensorsdata
+module.exports = {
+  extends: ['@sc/eslin-config-sensorsdata']
+};
 ```
